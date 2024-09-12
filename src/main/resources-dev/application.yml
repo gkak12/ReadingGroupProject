@@ -1,0 +1,12 @@
+server:
+  port: 18080
+
+spring:
+  datasource:
+    url: ENC(H92psafcerPEDN1saCUz0uCNfnVxfIAsCF58n/Z/chExOFDIXNg5c+AOuWiiVegnBZx5O4B8qAE=)
+    username: ENC(NZ6yCBuTd3Phnz4ujuUVbr+FwY9GeRlp)
+    password: ENC(lxll/AvbQLKHE6fYtwdEvcyUl5czZ+nx)
+  jpa:
+    database: postgresql
+  config:
+    import: common.yml
