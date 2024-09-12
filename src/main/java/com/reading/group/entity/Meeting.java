@@ -25,7 +25,8 @@ import lombok.Data;
 @SequenceGenerator(
 	name="MEETING_SEQ_GENERATOR",
 	sequenceName="MEETING_SEQ",
-	initialValue=1 
+	initialValue=1,
+	allocationSize=1
 )
 public class Meeting {
 

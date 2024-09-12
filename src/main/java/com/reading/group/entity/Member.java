@@ -27,7 +27,8 @@ import lombok.Data;
 @SequenceGenerator(
 	name="MEMBER_SEQ_GENERATOR",
 	sequenceName="MEMBER_SEQ",
-	initialValue=1 
+	initialValue=1,
+	allocationSize=1
 )
 public class Member {
 
